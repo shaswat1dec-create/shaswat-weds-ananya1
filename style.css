@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.hero {
+  background: url('images/couple.jpg') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: #ff4081;
+}
+
+.countdown, .event-info, .gallery, .blessings {
+  padding: 40px;
+  text-align: center;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#timer div {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+#blessingForm input, #blessingForm textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
