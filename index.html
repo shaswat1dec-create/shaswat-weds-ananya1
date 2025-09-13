@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shaswat & Ananya’s Wedding</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>Shaswat <span>&</span> Ananya</h1>
+      <p class="wedding-date">December 15, 2025</p>
+    </div>
+  </section>
+
+  <section class="countdown">
+    <h2>Countdown to the Big Day</h2>
+    <div id="timer">
+      <div><span id="days">00</span><p>Days</p></div>
+      <div><span id="hours">00</span><p>Hours</p></div>
+      <div><span id="minutes">00</span><p>Minutes</p></div>
+      <div><span id="seconds">00</span><p>Seconds</p></div>
+    </div>
+  </section>
+
+  <section class="event-info">
+    <h2>Wedding Event</h2>
+    <p>December 15, 2025 at 5:00 PM</p>
+    <p>Venue: The Grand Palace, Delhi</p>
+    <a href="https://maps.google.com?q=The+Grand+Palace+Delhi" target="_blank">📍 View on Google Maps</a>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Gallery Image 1"/>
+      <img src="images/gallery2.jpg" alt="Gallery Image 2"/>
+    </div>
+  </section>
+
+  <section class="blessings">
+    <h2>Leave Your Blessings</h2>
+    <form id="blessingForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="messages"></div>
+  </section>
+
+  <footer>
+    <p>With love, Shaswat & Ananya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
